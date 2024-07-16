@@ -4,16 +4,16 @@
 #include <iostream>
 using namespace std;
 
-void displayDie() {
+void ConsoleUI::displayDie() {
 
 }
-void displayScores(int[]) {
+void ConsoleUI::displayScores(int[]) {
 	cout << "Your score is: " << endl;
 }
-int getRerollDice() {
+int ConsoleUI::getRerollDice() {
 
 }
-int chooseScoreOption() {
+int ConsoleUI::chooseScoreOption() {
 	cout << "what number do you want to score?";
 	
 	
