@@ -8,13 +8,13 @@ void displayDie() {
 
 }
 void displayScores(int[]) {
-	cout << "Your score is: " << currentScore << endl;
+	cout << "Your score is: " << endl;
 }
 int getRerollDice() {
 
 }
 int chooseScoreOption() {
-	cout << "what number do you want to score?"
+	cout << "what number do you want to score?";
 	
 	
 	
@@ -27,8 +27,3 @@ int chooseScoreOption() {
 
 
 
-
-for (Die die : dice)
-if (die.setFaceVal() == 2)
-sum += face;
-}
