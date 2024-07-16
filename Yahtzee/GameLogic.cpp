@@ -1,10 +1,12 @@
 #include "GameLogic.h"
 #include "Die.h"
+#include "ConsoleUI.h"
 #include <iostream>
 using namespace std;
 
 GameLogic::GameLogic()
 {
+	
 	die1.roll();
 	die2.roll();
 	die3.roll();
@@ -12,13 +14,18 @@ GameLogic::GameLogic()
 	die5.roll();
 
 };
-void GameLogic::roll()
+
+void GameLogic::reRoll()
 {
-	
-};
-int GameLogic::getRoll()
-{
-	
+	for (int i = 0; i < 5; i++)
+	{
+		if (ConsoleUI.isTrue[i])
+		{
+
+
+		}
+
+	}
 };
 void GameLogic::addScore()
 {

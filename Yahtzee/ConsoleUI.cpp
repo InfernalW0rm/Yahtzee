@@ -4,6 +4,8 @@
 #include <iostream>
 using namespace std;
 
+ConsoleUI::ConsoleUI() {};
+
 void ConsoleUI::displayDie() {
 
 }

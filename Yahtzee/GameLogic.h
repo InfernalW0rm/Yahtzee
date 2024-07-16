@@ -8,6 +8,7 @@
 class GameLogic
 {
 private:
+	ConsoleUI ConsoleUI;
 	Die die1;
 	Die die2;
 	Die die3;
@@ -19,8 +20,7 @@ private:
 	int finalScore;
 public:
 	GameLogic();
-	void roll();
-	int getRoll();
+	void reRoll();
 	void addScore();
 	void keepDie();
 
