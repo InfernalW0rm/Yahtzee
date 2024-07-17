@@ -6,16 +6,6 @@ using namespace std;
 
 class Die
 {
-private:
-	int faceValue;
-	const int SIDES;
-public:
-
-	Die();
-	void roll();
-	int getFaceValue() const;
-	string getSides() const;
-
 
 };
 
