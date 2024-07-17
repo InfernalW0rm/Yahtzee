@@ -6,6 +6,7 @@ using namespace std;
 
 GameLogic::GameLogic() 
 {
+    
     for (int i = 0; i < 6; ++i) 
     {
         usedCategories[i] = false;

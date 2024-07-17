@@ -8,11 +8,13 @@ using namespace std;
 
 int main()
 {
+	srand(time(0));
 	ConsoleUI ui;
 	GameLogic logic;
 	const int diceCount = 5;
 	Die dice[diceCount];
 	bool diceToRoll[diceCount];
+	logic.rollDice(dice, diceToRoll, diceCount);
 
 	ui.displayWlcomeMessage();
 
