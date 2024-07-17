@@ -6,14 +6,13 @@ using namespace std;
 
 class Die
 {
+private:
+    int sides;
+    int faceValue;
 public:
     Die(int sides = 6);
     void roll();
     int getFaceValue() const;
-
-private:
-    int sides;
-    int faceValue;
 };
 
 
